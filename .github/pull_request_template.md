@@ -6,8 +6,12 @@ Tests: required on every PR.
 
 ## Summary
 
-<!-- Pick the smallest view that makes the point clear: pseudocode, call tree, component or file tree,
-Mermaid, or a diff sketch of the changed shape. One or two, not all. -->
+<!-- Start every PR summary with a Mermaid diagram. Replace the example labels with the actual change. -->
+
+```mermaid
+flowchart LR
+    A["Starting point"] --> B["What changes"]
+```
 
 ## Evidence
 
